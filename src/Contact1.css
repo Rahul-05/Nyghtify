@@ -1,0 +1,173 @@
+.cmain{
+    display: flex;
+     flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.cl{
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cl .clc{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 70%;
+    
+}
+.cl .clc .cont{
+    font-size: 4.9vw;
+}
+
+
+.cr{
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cr .crc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.cr .crc .logoc{
+   
+    width: 50%;
+}
+
+
+.ch2{
+    font-size: 1.7vw; 
+}
+
+.cp2{
+    font-size: 1.1vw; 
+}
+
+.cul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.social-menu .cul .cli {
+    list-style: none;
+    margin: 0 10px;
+}
+
+
+
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .cl .clc .cont{
+      font-size: 5.2vw;
+  }
+  .cl .clc .ch2{
+    font-size: 4.7vw; 
+}
+
+.cl .clc .cp2{
+    font-size: 2.1vw; 
+}
+
+
+
+.cul{
+   
+    padding-right: 40px;
+}
+
+.social-menu ul li .fa {
+    
+    font-size: 15px;
+    line-height: 30px;
+    
+}
+
+.social-menu ul li a {
+    
+    width: 30px;
+    height: 30px;
+    
+}
+
+  }
+
+@media only screen and (max-width: 600px){
+    
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .cl .clc .cont{
+        font-size: 7.2vw;
+    }
+    .cl .clc .ch2{
+        font-size: 5.7vw; 
+    }
+    
+    .cl .clc .cp2{
+        font-size: 3.1vw; 
+    }
+
+   
+}

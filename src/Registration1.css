@@ -1,0 +1,89 @@
+.register1main .input1 {
+    width: 300px;
+    border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.register1main .input1 .rlil {
+    background-color: aqua;
+
+}
+
+.lanja {
+    width: 190px;
+    
+}
+
+.empty  {
+    border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box; 
+} 
+/* .Register{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    position: relative;
+    
+    
+}
+
+.inputBx{
+    display: flex;
+    flex-direction: row;
+
+}
+.inputBx .Register-class-h2{
+    flex: 50%;
+    border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+}
+.inputBx .Register-class-input{
+    
+    flex: 50%;
+      
+}
+
+.inputBx .Register-class-h2 .Register-h2{
+    padding-left:150px;
+    
+}
+
+.inputBx .Register-class-input .Register-input{
+    width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    
+}
+.inputBx .Register-class-submit{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.inputBx .Register-class-submit .Register-class-submit-flex {
+    flex: 50%;
+}
+.inputBx .Register-class-submit .Register-Submit{
+    
+    width: 20%;
+    background-color: #8c00ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  } */

@@ -1,0 +1,133 @@
+.hero {
+  
+    margin: 0;
+    padding: 0;
+    background:url("images/hero.jpg");
+    height: 100%;
+    display: flex;
+  
+   
+}
+
+.hero .hleftside{
+  
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero .hleftside .hinputs .hfind{
+    margin: 0;
+    font-size: 1.8vw;
+    color: white;
+}
+ .hh1{
+    margin: 0;
+}
+
+.hero .hleftside .hinputs .hjoin{
+    padding-top:30px;
+    font-size:1.9vw;
+    color: aliceblue;    
+}
+.hero .hleftside .hinputs .hsearch {
+    padding-top: 30px;
+}
+.hero .hleftside .hinputs .hsearch .hisearch{
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 1.2vw;
+    width: 25vw;
+    height: 3vw;
+    
+}
+.hero .hleftside .hinputs .hwork {
+    padding-top: 17px;
+}
+
+.hero .hleftside .hinputs .hwork .hul{
+   
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    
+
+}
+.hero .hleftside .hinputs .hwork .hul .hli1{
+    
+    font-size: 1.5vw;
+    list-style: none;
+    
+}
+.hero .hleftside .hinputs .hwork .hul .hli2{
+    font-size: 1.5vw;
+    list-style: none;
+    padding-left: 20px ;
+}
+
+.ha1{
+   
+    padding: 10px 20px;
+    color: black;
+    background-color:white ;
+    border: 3px solid white;
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -.4em;
+    text-decoration: none;
+}
+
+.ha2{
+    
+    padding: 10px 20px;
+    color:white ;
+    border: 3px solid white;
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -.4em;
+    text-decoration: none;
+}
+
+.hero .hrightside{
+    
+  
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero .hrightside .himg .hlogos{
+   height: 27vw;
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .hero .hrightside{
+        display: none;
+    }
+    .hero .hleftside .hinputs .hfind{
+        font-size: 4.6vw;
+    }
+    .hero .hleftside .hinputs .hjoin{
+        font-size:4.6vw;
+    }
+    .hero .hleftside .hinputs .hsearch .hisearch{
+        height: 7vw;
+        width: 60vw;
+        font-size: 3vw;
+    }
+    .hero .hleftside .hinputs .hwork .hul .hli1{
+        font-size: 2.7vw;
+    }
+    .hero .hleftside .hinputs .hwork .hul .hli2{
+        font-size: 2.7vw;
+    }
+    .hero{
+        height: 90%;
+    }
+}
+

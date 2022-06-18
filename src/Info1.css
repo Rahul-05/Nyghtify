@@ -1,0 +1,65 @@
+.iinfo {
+    margin: 0;
+    padding: 0;
+   
+    height: 100%;
+    display: flex;
+    
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.iinfo .ileftside{
+    flex: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.iinfo .ileftside .iinputs{
+
+    padding: 0px 45px;
+}
+
+.iinfo .ileftside .iinputs .ih1
+{
+    font-size: 3vw;
+   
+}
+.iinfo .ileftside .iinputs .ip1{
+   
+    font-size: 1.5vw;
+}
+
+
+.iinfo .irightside{
+    flex: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.iinfo .irightside .iimage .isingerimage{
+    height: 27vw;
+   
+ }
+
+
+@media only screen and (max-width: 600px) {
+
+    .iinfo{
+       height: 500px;
+    }
+    .iinfo .irightside{
+        display: none;
+    }
+    .iinfo .ileftside .iinputs .ih1{
+        font-size: 4.6vw;
+    }
+    .iinfo .ileftside .iinputs .ip1{
+        font-size:3vw;
+    }
+    
+}
+

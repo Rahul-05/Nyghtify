@@ -1,0 +1,69 @@
+.dd{
+    display:flex;
+    padding-top: 30px;
+}
+
+.gt {
+    font-size: 3vw;
+
+}
+.bt {
+    font-size: 2vw;
+}
+
+.dd .ml {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dd .ml .dow {
+    display: flex;
+}
+
+.dd .ml .dow .st{
+    flex:50%;
+}
+
+.dd .mr{
+    flex:50%;
+    text-align: center;
+}
+
+.mockup{
+ width: 35%;
+}
+
+.ml {
+    padding-left:45px;
+}
+
+.dsds {
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .dd{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .mockup{
+        padding-top: 30px;
+        width: 35%;
+    }
+    .dsds {
+        height: 50%;
+        width: 40%;
+    }
+    .gt {
+        font-size: 5.5vw;
+    
+    }
+    .bt {
+        font-size: 3.9vw;
+    }
+}

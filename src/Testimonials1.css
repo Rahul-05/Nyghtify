@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+
+
+.tmain {
+  width: 100%;
+  min-height: 100vh;
+  color: #202046;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 280px 72px;
+  background-image: url(https://alcs-slider.netlify.app/images/pattern-curve.svg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.tmain main {
+  width: 100%;
+  max-width: 1440px;
+  padding: 16px;
+}
+
+.tmain main .tslider .tbuttons {
+  z-index: 1;
+  right: 50%;
+  top: 261px;
+  width: 80px;
+  height: 40px;
+  
+  border-radius: 50px;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  background-color: #FFFFFF;
+}
+
+.tmain main .tslider .tbuttons .tprevious,
+.tmain main .tslider .tbuttons .tnext {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.tmain main .tslider .tbuttons .tprevious {
+  left: 0;
+  background-image: url("https://alcs-slider.netlify.app/images/icon-prev.svg");
+}
+
+.tmain main .tslider .tbuttons .tprevious:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.tmain main .tslider .tbuttons .tnext {
+  right: 0;
+  background-image: url("https://alcs-slider.netlify.app/images/icon-next.svg");
+}
+
+.tmain main .tslider .tbuttons .tnext:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.tmain main .tslider .tslide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.tmain main .tslider .tslide .ttestimonial {
+  padding: 32px 51px;
+  background-size: 60px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url(https://alcs-slider.netlify.app/images/pattern-quotes.svg);
+}
+
+.tmain main .tslider .tslide .ttestimonial blockquote {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 36px;
+}
+
+.tmain main .tslider .tslide .ttestimonial .tauthor {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tmain main .tslider .tslide .ttestimonial .tauthor span {
+  display: block;
+  color: #babacf;
+  font-weight: 500;
+}
+
+.tmain main .tslider .tslide .tslider-img {
+  width: 100%;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://alcs-slider.netlify.app/images/pattern-bg.svg);
+}
+
+.tmain main .tslider .tslide .tslider-img img {
+  width: 240px;
+  display: block;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 16px 40px 0px rgba(135, 105, 210, 0.4);
+          box-shadow: 0px 16px 40px 0px rgba(135, 105, 210, 0.4);
+}
+
+.tmain main .tslider .tslide .tactive {
+  opacity: 1;
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+
+.tmain .thide {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .tmain main {
+    max-width: 800px;
+  }
+  .tmain main .tslider .tbuttons {
+    top: 280px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+    .tmain main {
+    width: 100%;
+    max-width: 1054px;
+    padding: 64px 64px 64px 0;
+  }
+  .tmain main .tslider .tbuttons {
+    right: 43%;
+    top: 500px;
+  }
+  .tmain main .tslider .tslide {
+    position: relative;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .tmain main .tslider .tslide .ttestimonial {
+    padding: 32px 0 0 0;
+    background-size: 80px;
+    background-position: 19% -7%;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  .tmain main .tslider .tslide .ttestimonial blockquote {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .tmain main .tslider .tslide .ttestimonial .tauthor span {
+    display: contents;
+  }
+  .tmain main .tslider .tslide .tslider-img {
+    padding: 55px;
+  }
+  .tmain main .tslider .tslide .tslider-img img {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
